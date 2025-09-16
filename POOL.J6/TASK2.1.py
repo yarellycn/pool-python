@@ -9,9 +9,16 @@ def addintegrers(n):
     
 print(addintegrers(42))
 
+# fact(5) = 5 + fact(4)
+# fact(4) = 4 + fact(3)
+# fact(3) = 3 + fact(2)
+# fact(2) = 2 + fact(1)
+# fact(1) = 1 + fact(1)
 # fact(0) = 0
-# fact(1) = 1
-# fact(2) = 3
-# fact(3) = 6
-# fact(4) = 10
-# fact(5) = 15
+
+# fact(5) = 5 + fact(4) = 5 + 10 = 15
+# fact(4) = 4 + fact(3) = 4 + 6 = 10
+# fact(3) = 3 + fact(2) = 3 + 3 = 6
+# fact(2) = 2 + fact(1) = 2 + 1 = 3
+# fact(1) = 1 + 0 = 1
+# fact(0) = 0
